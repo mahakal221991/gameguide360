@@ -1,0 +1,1 @@
+GameGuide360 placeholder graphics. Replace with your own authorized game artwork. Files: logo.svg, hero-banner.svg, game-placeholder.svg. Example use: <img src="/images/hero-banner.svg" alt="GameGuide360 gaming reviews and guides">. These images are not automatically connected to existing pages.
