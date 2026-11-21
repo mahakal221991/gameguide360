@@ -49,3 +49,49 @@ footer{background:#1b1518;color:#f7f1f1;margin-top:60px;padding:35px max(20px,ca
 /* Stack both card actions below each logo/title on every screen size. */
 .card-actions{display:flex!important;flex-direction:column!important;gap:8px!important;width:100%;margin-top:auto;padding-top:10px}
 .card .card-actions a,.card .card-actions span{display:flex;align-items:center;justify-content:center;width:100%!important;min-height:42px;line-height:1.25;text-align:center}
+
+
+/* Game article image and download button */
+.article-game-media{width:100%;max-width:650px;margin:22px auto 26px;padding:16px;border:1px solid #f0c1c6;border-radius:18px;background:#fff;box-shadow:0 8px 24px #79000a12;text-align:center}
+.article-game-media img{display:block;width:min(100%,400px);height:auto;max-height:390px;object-fit:contain;margin:0 auto;border-radius:14px}
+.article-download-actions{margin:16px auto 0;max-width:400px}
+.article-download-btn{display:block;width:100%;padding:13px 16px;border-radius:11px;text-align:center;background:linear-gradient(180deg,#f42a34,#c6000c);color:#fff!important;text-decoration:none;font-size:16px;font-weight:800}
+.article-download-btn.is-unavailable{background:#f3e7e8;border:1px solid #e5c8ca;color:#866b70!important;cursor:not-allowed}
+@media(max-width:600px){.article-game-media{padding:10px;margin:15px auto 22px}.article-game-media img{max-height:310px}.article-download-btn{font-size:14px;padding:12px 10px}}
+
+
+/* Final article mobile-responsive layout — 22 GameGuide360 posts */
+html,body{max-width:100%;overflow-x:clip}
+.article{width:min(960px,calc(100% - 28px));min-width:0;overflow-wrap:break-word}
+.article img{max-width:100%;height:auto}
+.article-game-media{width:100%;max-width:540px;margin:18px auto 24px;padding:14px;overflow:hidden}
+.article-game-media img{display:block;width:100%;max-width:330px;max-height:280px;height:auto;object-fit:contain;object-position:center;margin:0 auto}
+.article-download-actions{width:100%;max-width:400px;margin:14px auto 0}
+.article-download-btn,.article-download-btn.is-unavailable{
+ display:flex;align-items:center;justify-content:center;min-height:49px;
+ width:100%;padding:12px 16px;border-radius:11px;
+ background:linear-gradient(180deg,#f52735,#b9000b);
+ border:1px solid #bd000a;color:#fff!important;
+ box-shadow:0 5px 14px #b9000b22;font-weight:800;font-size:16px;
+ text-decoration:none;text-align:center;line-height:1.4
+}
+.article-download-btn.is-unavailable{opacity:.72;cursor:not-allowed}
+.article h2{overflow-wrap:anywhere}
+.article .info-table{display:table;table-layout:fixed;width:100%;border-collapse:collapse}
+.article .info-table th,.article .info-table td{overflow-wrap:anywhere;word-break:normal;vertical-align:top}
+.article .info-table th{width:38%}
+.article .faq details{max-width:100%}
+@media(max-width:600px){
+ .article{width:calc(100% - 20px);padding-top:20px}
+ .article h1{font-size:clamp(25px,7vw,34px)}
+ .article p,.article li{font-size:15px;line-height:1.7}
+ .article .article-intro{font-size:16px}
+ .article h2{font-size:18px;padding:11px 12px;border-radius:9px;margin:24px 0 14px}
+ .article-game-media{padding:10px;margin:16px auto 20px;border-radius:14px}
+ .article-game-media img{max-width:260px;max-height:245px}
+ .article-download-actions{margin-top:12px}
+ .article-download-btn,.article-download-btn.is-unavailable{min-height:48px;font-size:15px}
+ .article .info-table th,.article .info-table td{padding:9px 8px;font-size:12px;line-height:1.5}
+ .article .info-table th{width:39%}
+ .article .notice{padding:12px}
+}
