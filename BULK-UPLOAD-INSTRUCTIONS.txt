@@ -1,0 +1,13 @@
+GameGuide360 — 22-post update
+
+Upload the CONTENTS of this folder to the ROOT of your existing GitHub gameguide360 repository. Overwrite posts.json, css/style.css, js/main.js, sitemap.xml, robots.txt. Upload all 22 HTML files inside posts/. Keep the existing site files.
+
+GitHub website upload: Add file > Upload files; drag the extracted files and folders, then Commit changes. If GitHub refuses a folder, drag the individual files into the matching folder or use GitHub Desktop.
+
+The homepage displays the 15 newest posts (by date), while games.html displays all posts. Search on homepage searches all 22 posts.
+
+No official APK/download/login/registration links or game-specific facts have been verified. These are unique editorial research drafts, NOT fact-verified product reviews. No link buttons are shown until URLs are checked and added to the template and content.
+
+To add a future post, create posts/new-game.html and add an entry to posts.json with date YYYY-MM-DD. Update sitemap.xml with the new URL.
+
+The canonical URL and sitemap assume https://gameguide360.com/; connect the domain before requesting indexing. Check Vercel hosting policies and applicable gaming laws before publishing commercial or real-money gaming promotions.
