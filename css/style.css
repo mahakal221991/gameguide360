@@ -100,3 +100,20 @@ html,body{max-width:100%;overflow-x:clip}
 .explore-after-posts{display:flex;justify-content:center;margin:26px auto 38px;padding:0 12px}.explore-after-posts .button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;text-align:center;max-width:100%;width:min(340px,100%)}
 .article section{max-width:100%}.article section p{overflow-wrap:break-word}.article a{overflow-wrap:anywhere}
 @media(max-width:600px){.explore-after-posts{margin:22px auto 32px}.explore-after-posts .button{width:100%}}
+
+
+/* Red Download Button with Black Text */
+.card .card-download,
+.card .card-download.is-disabled,
+.card .card-download:disabled,
+.card .card-download[disabled],
+.card .card-download[aria-disabled="true"] {
+    background: #ff0000 !important;
+    color: #000000 !important;
+    border: 1px solid #cc0000 !important;
+    opacity: 1 !important;
+}
+
+.card .card-download * {
+    color: #000000 !important;
+}
