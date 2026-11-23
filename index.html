@@ -238,6 +238,104 @@
 
     </section>
 
+<style>
+.gg-two-sections {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  max-width: 1150px;
+  margin: 35px auto;
+  padding: 0 12px;
+}
+
+.gg-list-box {
+  min-width: 0;
+  background: #ffffff;
+  border: 1px solid #f0cccc;
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 4px 15px #0000000a;
+}
+
+.gg-list-box h2 {
+  margin: 0 0 16px;
+  padding: 12px;
+  background: #fff0f0;
+  border-left: 5px solid #e50914;
+  border-radius: 7px;
+  color: #b00000;
+  font-size: clamp(16px, 3vw, 23px);
+}
+
+.gg-list-box a {
+  display: block;
+  padding: 12px 10px;
+  margin-bottom: 9px;
+  border: 1px solid #f3dddd;
+  border-radius: 8px;
+  color: #a00000;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.gg-list-box a:hover {
+  background: #e50914;
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .gg-two-sections {
+    gap: 10px;
+    padding: 0 8px;
+  }
+  .gg-list-box {
+    padding: 9px;
+  }
+  .gg-list-box a {
+    padding: 10px 6px;
+    font-size: 12px;
+  }
+}
+</style>
+
+<section class="gg-two-sections">
+
+  <!-- LEFT: TRENDING APPS -->
+  <div class="gg-list-box">
+    <h2>Trending Apps</h2>
+
+    <a href="/posts/hero11-cricket.html">
+      Hero11 Cricket
+    </a>
+    <a href="/posts/dream77-game.html">
+      Dream77 Game
+    </a>
+    <a href="/posts/x89-game.html">
+      X89 Game
+    </a>
+    <a href="/posts/clplay-game.html">
+      CLPLAY Game
+    </a>
+    <a href="/posts/mmy-game.html">
+      MMY Game
+    </a>
+  </div>
+
+  <!-- RIGHT: MOST POPULAR GAMES -->
+  <div class="gg-list-box">
+    <h2>Most Popular Games</h2>
+
+    <a href="/posts/rs9.html">RS9</a>
+    <a href="/posts/goplay11.html">GoPlay11</a>
+    <a href="/posts/in7-game.html">IN7 Game</a>
+    <a href="/posts/rr9-game.html">RR9 Game</a>
+    <a href="/posts/max7-game.html">MAX7 Game</a>
+  </div>
+
+</section>
+
   </main>
 
   <!-- Footer -->
